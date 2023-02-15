@@ -1,0 +1,59 @@
+/******header******/
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    background-color: var(--background-color);
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+#busca{
+    width: 752px;
+    height: 56px;
+    background-color: var(--box-color);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding-left: 14px;
+    font-size: 16px;
+}
+
+#busca::placeholder{
+    color: #fff;
+    margin-left: 14px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+.imageUser{
+
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.logoSite{
+display: flex;
+align-items: center;
+
+    color: #fff;
+    font-size: 30px;
+    margin-left: 32px;
+
+    
+}
+
+.logoSite > span:nth-child(1){
+    margin-right: 7px;
+}
+
+.logoSite >:nth-child(2){
+    color: var(--background-color);
+    background-color: #fff;
+}
